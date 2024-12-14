@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="284dp"
+            android:src="@drawable/kietl"
+            android:clickable="true" />
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter your name"
+           android:textColorHint="#2E4CA5"
+           android:id="@+id/name"
+           android:layout_margin="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="Enter your password"
+            android:textColorHint="#2E4CA5"
+            android:inputType="textPassword"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:text="Click Here"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue"
+            android:layout_margin="40dp"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
